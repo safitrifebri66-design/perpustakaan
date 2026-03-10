@@ -24,7 +24,7 @@ if(isset($_POST['login'])){
 
             // SESSION LOGIN
             $_SESSION['user_id'] = $user['id'];
-            $_SESSION['username'] = $user['username']; // ✅ TAMBAHAN AGAR TIDAK ERROR
+            $_SESSION['username'] = $user['username']; 
             $_SESSION['role'] = $user['role'];
 
             // redirect berdasarkan role
